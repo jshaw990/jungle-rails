@@ -29,4 +29,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
+### Sold Out Badge
 ![SoldOutBadge](https://github.com/jshaw990/jungle-rails/blob/feature/sold-out-badge/screenshots/SoldOutBadge.png?raw=true)
