@@ -29,6 +29,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
-Sold Out Badge
+### Sold Out Badge
 
 ![SoldOutBadge](https://github.com/jshaw990/jungle-rails/blob/feature/sold-out-badge/screenshots/SoldOutBadge.png?raw=true)
+
+### Admin New Category Bar
+![NewCatBar](https://github.com/jshaw990/jungle-rails/blob/feature/admin-categories/screenshots/AdminNewCategoryBox.png?raw=true)
+
+### Admin New Category Added
+![NewCatIn](https://github.com/jshaw990/jungle-rails/blob/feature/admin-categories/screenshots/AdminNewCategoryIn.png?raw=true)
