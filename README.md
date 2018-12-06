@@ -38,3 +38,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ### Admin New Category Added
 ![NewCatIn](https://github.com/jshaw990/jungle-rails/blob/feature/admin-categories/screenshots/AdminNewCategoryIn.png?raw=true)
+
+### User Signup Form
+![SignUp](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/SignUp.png?raw=true)
+
+### User Sign In Form
+![SignIn](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/Login.png?raw=true)
+
+### User Signed In View
+![UserIn](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/SignedIn.png?raw=true)
