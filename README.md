@@ -71,3 +71,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
 * Order Styling 
+* Email Shows Inventory Quantity not Order Quantity
