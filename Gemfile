@@ -58,3 +58,6 @@ group :production do
   gem 'newrelic_rpm'
   gem 'rails_12factor'
 end
+
+# Google Email API
+gem 'google-api-client'

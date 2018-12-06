@@ -52,8 +52,25 @@ class OrdersController < ApplicationController
         total_price: product.price * quantity
       )
     end
+
+    def send_receipt(order)
+      total = order.total
+      text = "Thank you for your Order! Total Charged is $#{total /100}.\n Order Details \n"
+      order.line_items.each do |i|
+        text += 'Product Name: ' + i.product.name + "\n"
+        text += 'Product Quantity: ' + i.product.quantity.to_s + "\n"
+    end
+
+      RestClient.post "https://api:5feeee8624223faf20cb34b8ac687e2c-52cbfb43-91be5028"\
+      "@api.mailgun.net/v3/sandbox7cbf695f43eb4a31ae9bd983d55001b0.mailgun.org/messages",
+        :from => "no-reply@jungle.com",
+        :to => order.email,
+        :subject => 'Order #' + order.id.to_s,
+        :text => text
+    end
+
     order.save!
+    send_receipt(order)
     order
   end
-
 end
