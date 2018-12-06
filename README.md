@@ -75,6 +75,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ----------
 
+### Empty Cart
+![EmptyCart]()
+
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
 * Order Styling 
