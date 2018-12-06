@@ -71,9 +71,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ----------
 
 ### Admin Log In
-![AdminLogin]()
+![AdminLogin](https://github.com/jshaw990/jungle-rails/blob/feature/admin-auth/screenshots/AdminLogIn.png?raw=true)
+
+----------
 
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
 * Order Styling 
 * Email Shows Inventory Quantity not Order Quantity
+* Admin Session is persistent and will not clear unless browser is completely closed
