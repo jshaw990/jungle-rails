@@ -47,3 +47,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ### User Signed In View
 ![UserIn](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/SignedIn.png?raw=true)
+
+### Order Details
+![OrderDetails](https://github.com/jshaw990/jungle-rails/blob/feature/order/screenshots/OrderDetails.png?raw=true)
+
+## Bug/To Do List:
+* Order is showing Hardcoded Email rather than User Email
+* Order Styling 
