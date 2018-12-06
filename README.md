@@ -68,6 +68,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ### Order Receipt Email
 ![OrderEmail](https://github.com/jshaw990/jungle-rails/blob/feature/receipt/screenshots/OrderEmail.png?raw=true)
 
+----------
+
+### Admin Log In
+![AdminLogin]()
+
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
 * Order Styling 
