@@ -33,23 +33,40 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ![SoldOutBadge](https://github.com/jshaw990/jungle-rails/blob/feature/sold-out-badge/screenshots/SoldOutBadge.png?raw=true)
 
+----------
+
 ### Admin New Category Bar
 ![NewCatBar](https://github.com/jshaw990/jungle-rails/blob/feature/admin-categories/screenshots/AdminNewCategoryBox.png?raw=true)
+
+----------
 
 ### Admin New Category Added
 ![NewCatIn](https://github.com/jshaw990/jungle-rails/blob/feature/admin-categories/screenshots/AdminNewCategoryIn.png?raw=true)
 
+----------
+
 ### User Signup Form
 ![SignUp](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/SignUp.png?raw=true)
+
+----------
 
 ### User Sign In Form
 ![SignIn](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/Login.png?raw=true)
 
+----------
+
 ### User Signed In View
 ![UserIn](https://github.com/jshaw990/jungle-rails/blob/feature/users/screenshots/SignedIn.png?raw=true)
 
+----------
+
 ### Order Details
 ![OrderDetails](https://github.com/jshaw990/jungle-rails/blob/feature/order/screenshots/OrderDetails.png?raw=true)
+
+----------
+
+### Order Receipt Email
+![OrderEmail]()
 
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
