@@ -2,6 +2,15 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Creater's Notes
+
+This project I did not spend really anytime working with the CSS/SCSS. I mainly focused my time on getting the Ruby/Rails routes to work and understand what they were doing. I really enjoy Rails after working on this and I hope to do more in the future. 
+
+For the Order/email sending I used and API called MailGun which actually delivers the email following submission of order. It usually ends up in my spam folder though. 
+
+I also added Users First and Last name to the sign up. I misread the details on Compass and by the time I realized my mistake it was too late to go back. 
+
+There are also a few "minor" bugs which I've listed below. As they are only minor I will work to fix them in the coming week. 
 
 ## Setup
 
