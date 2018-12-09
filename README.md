@@ -81,7 +81,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ----------
 
 ### User Reviews
-![UserReviews]()
+![UserReviews](https://github.com/jshaw990/jungle-rails/blob/feature/ratings/screenshots/UserReviews.png?raw=true)
 
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
