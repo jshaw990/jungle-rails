@@ -78,6 +78,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ### Empty Cart
 ![EmptyCart](https://github.com/jshaw990/jungle-rails/blob/feature/empty-cart/screenshots/EmptyCart.png?raw=true)
 
+----------
+
+### User Reviews
+![UserReviews]()
+
 ## Bug/To Do List:
 * Order is showing Hardcoded Email rather than User Email
 * Order Styling 

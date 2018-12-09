@@ -47,7 +47,7 @@
       <h2><%= pluralize(@product.reviews.count, 'Review', 'Reviews') %></h2>
       <% @product.reviews.order(created_at: :desc).each do |r| %>
         <article>
-          <header>By: <strong><%= r.user %></strong></header>
+          <header>By: <strong><%= r.user.first_name %></strong></header>
           <ul>
           <li>Rating: <strong><%= r.rating %></strong></header></li>
           <li>Review: <p><%= r.description %></p></li>
