@@ -132,5 +132,31 @@ cat3.products.create!({
   price: 2_483.75
 })
 
+# Seed Users
+User.create!(first_name: 'John',
+              last_name: 'Doe',
+              email: 'john@me.com',
+              password: '123456',
+              password_confirmation: '123456'
+)
+User.create!(first_name: 'Jane',
+              last_name: 'Doe',
+              email: 'jane@me.com',
+              password: 'password',
+              password_confirmation: 'password'
+)
+
+# Seed Reviews
+Review.destroy_all
+
+Review.create!(user_id: User.find(1).id,
+               product_id: Product.find(1).id,
+               description: 'Greate Product!',
+               rating: 5)
+
+Review.create!(user_id: User.find(2).id,
+               product_id: Product.find(1).id,
+               description: 'Terrible product, bad customer service!',
+               rating: 1)
 
 puts "DONE!"
