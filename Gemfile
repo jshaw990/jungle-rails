@@ -61,3 +61,7 @@ end
 
 # Google Email API
 gem 'google-api-client'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
